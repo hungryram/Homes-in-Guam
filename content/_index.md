@@ -19,7 +19,7 @@ slideshow:
     subtitle:
     link_label:
     link:
-    image: /uploads/black-kitchen-cabinet-modern-lhtyf2.jpg
+    image: /uploads/44b549be-6c9b-40b0-975e-6905d1813202.JPG
     body: Residential &middot; Commercial &middot; Property Management
     enable_white_text: false
 home_sections:
