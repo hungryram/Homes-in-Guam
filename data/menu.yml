@@ -2,9 +2,9 @@ menu:
   - name: Home
     link:
     menu:
-  - name: Contact
-    link: /contact
-    menu:
-  - name: Search Homes
+  - name: Advanced Search
     link: https://search.idxhome.com/homesearch/162504
+    menu:
+  - name: About
+    link: /about
     menu:
