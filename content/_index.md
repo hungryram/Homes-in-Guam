@@ -15,12 +15,12 @@ video_background:
   button_link: /listings
   enable_black_text: false
 slideshow:
-  - heading: Guam real estate made easy.
+  - heading: Find your island home
     subtitle:
     link_label:
     link:
     image: /uploads/44b549be-6c9b-40b0-975e-6905d1813202.JPG
-    body: Residential &middot; Commercial &middot; Property Management
+    body:
     enable_white_text: false
 home_sections:
   - _type: text-and-image-section
