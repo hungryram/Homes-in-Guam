@@ -18,10 +18,10 @@ header:
   enable_white_text_top: true
   transparent_background: true
   call_to_action_link: https://search.idxhome.com/organizer/login/162504
-  call_to_action_label: My Account
+  call_to_action_label: Sign in
   remove_call_to_action: false
   mobile_menu:
-    background_color: '#222'
+    background_color: '#222222'
     enable_white_text: true
 pages:
   image: /uploads/dark-white-kitchen-d50bh8.jpg
