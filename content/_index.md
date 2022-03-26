@@ -23,19 +23,5 @@ slideshow:
     body:
     enable_white_text: false
 home_sections:
-  - _type: text-and-image-section
-    template: text-and-image
-    heading: Why National Realty?
-    body: >-
-      We provide sound advice so you can make the best possible decisions. We
-      offer premium customer service to make you the \#1 priority, which means
-      “less about us, more about you.” We innovate to make your real estate
-      journey easier. This is our approach. These are the cornerstones of our
-      business.
-    button:
-    button_link:
-    image:
-    image_alt_tag:
-    image_width: 400
 ---
 
