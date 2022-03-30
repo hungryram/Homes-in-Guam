@@ -16,5 +16,5 @@ equal_housing_logo: false
 mls_logo: false
 realtor_logo: false
 enable_black_text: false
-remove_credit: false
+remove_credit: true
 important_documents:

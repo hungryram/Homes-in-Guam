@@ -47,35 +47,21 @@
                         <a href="{{ .link | absURL }}" class="uk-button uk-button-primary">{{ .link_label }}</a>
                     </div>
                     {{ end }}
-                    {{ if $slideSettings.enable_default_search }}
                     <div class="uk-margin-medium-top">
-                        <form action="{{ "search" | absURL }}">
-                            <div uk-form-custom>
-                                <input class="uk-input uk-width-medium" id="search-query" name="s" placeholder="Search by address, state, zip, city or MLS #" title="Search by address, state, zip, city or MLS #" />
-                                <button class="uk-button uk-button-primary" type="submit" tabindex="-1">Search</button>
-                            </div>
-                        </form>
+                        <div class="uk-container desktop-quicksearch">
+                            {{ if $.Site.Data.idx.incomplete_subdomain }}
+                            <script type="text/javascript" src="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/site/listing/search/widget/{{ $ihfID }}?style=horizontal"></script>
+                            {{ else }}
+                            <script type="text/javascript" src="https://{{ $.Site.Data.idx.complete_subdomain }}.idxhome.com/site/listing/search/widget/{{ $ihfID }}?style=horizontal"></script>
+                            {{ end }}
+                        </div>
                     </div>
-                    {{ end }}
                 </div>
             </div>
         </li>
         {{ end }}
     </ul>
 
-    {{ if and $.Site.Data.idx.enable_idx $slideSettings.enable_idx_search }}
-    <div class="hero-foot">
-        <div class="uk-position-bottom uk-position-medium uk-text-center">
-            <div class="uk-container desktop-quicksearch">
-                {{ if $.Site.Data.idx.incomplete_subdomain }}
-                <script type="text/javascript" src="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/site/listing/search/widget/{{ $ihfID }}?style=horizontal"></script>
-                {{ else }}
-                <script type="text/javascript" src="https://{{ $.Site.Data.idx.complete_subdomain }}.idxhome.com/site/listing/search/widget/{{ $ihfID }}?style=horizontal"></script>
-                {{ end }}
-            </div>
-        </div>
-    </div>
-    {{ end }}
 </div>
 {{ end }}
 
