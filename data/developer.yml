@@ -10,7 +10,9 @@ custom_css: >-
   }
 
 
-  html body {
+  html body,
+
+  ul.uk-navbar-nav>li>a {
 
   font-family: 'DM Sans', sans-serif!important;
 
