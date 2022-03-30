@@ -238,7 +238,7 @@ ul.uk-nav-default.uk-dark li.uk-parent .uk-nav-sub li a {
     color: rgb(204, 204, 204)
 }
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     div.desktop-quicksearch {
         display: none;
     }
@@ -248,7 +248,7 @@ ul.uk-nav-default.uk-dark li.uk-parent .uk-nav-sub li a {
     div.mobile-quicksearch {
         display: none;
     }
-}
+} */
 
 .black-overlay {
     height: 100%;
