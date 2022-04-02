@@ -21,7 +21,7 @@ header:
   call_to_action_label: Sign in
   remove_call_to_action: false
   mobile_menu:
-    background_color: '#222222'
+    background_color: '#2b3252'
     enable_white_text: true
 pages:
   image: /uploads/dark-white-kitchen-d50bh8.jpg
