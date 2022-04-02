@@ -16,7 +16,7 @@ header:
   header_background_color: '#2b3252'
   enable_white_text: true
   enable_white_text_top: false
-  transparent_background: true
+  transparent_background: false
   call_to_action_link: https://search.idxhome.com/organizer/login/162504
   call_to_action_label: Sign in
   remove_call_to_action: false
