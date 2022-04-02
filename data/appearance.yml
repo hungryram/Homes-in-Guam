@@ -1,9 +1,9 @@
 branding:
   site_title: ' '
   logo: /uploads/homesin-guam.png
-  dark_logo: /uploads/homes-in-guam-dark-logo.png
+  dark_logo: /uploads/dark-homesinguam.png
   favicon:
-  logo_width: 200
+  logo_width: 170
 icons:
   onefivetwo:
   onefourfour:
